@@ -1,0 +1,1914 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #f4f6f8;
+}
+header{
+	width:100%;
+	height:12vw;
+	position:relative;
+	background-color: white;
+}
+.mail{
+	height:0.87vw;
+	width:8.08vw;
+	font:400 0.86vw arial;
+	margin-left:12.2vw;
+	margin-top:1.6vw;
+	position:absolute;
+}
+.phone{
+	height:0.87vw;
+	width:8.08vw;
+	font:400 0.86vw arial;
+	margin-left:21.26vw;
+	margin-top:1.6vw;
+	position:absolute;
+}
+.mail img,.phone img{
+	width:1.2vw;
+	height:0.733vw;
+	margin-right:0.2vw;
+}
+.small_header{
+	width:100%;
+	height:4vw;
+	position:relative;
+}
+
+.social img:nth-of-type(1){
+	position:absolute;
+	left:83.8vw;
+	top:1.66vw;
+	width:0.4vw;
+	height:0.73vw;
+}
+.social img:nth-of-type(2){
+	position:absolute;
+	left:85.6vw;
+	top:1.66vw;
+    width:0.9vw;
+	height:0.73vw;
+}
+.social img:nth-of-type(3){
+	position:absolute;
+	left:87.6vw;
+	top:1.66vw;
+	width:0.9vw;
+	height:0.73vw;
+}
+.social img:nth-of-type(4){
+	position:absolute;
+	left:89.5vw;
+	top:1.66vw;
+	width:0.73vw;
+	height:0.73vw;
+}
+.big_header{
+	width:100%;
+	height:8vw;
+	position:relative;
+}
+.logo{
+	width:7.3vw;
+	height:2.51vw;
+	margin-left:12.2vw;
+	margin-top:2.7vw;
+	position:absolute;
+}
+.title_logo{
+	height: 1.8vw;
+    width: 7.3vw;
+    background: url(SHPY.png)no-repeat,url(Vector.png)50% 30% no-repeat,url(Ellipse.png)50% 0 no-repeat;
+    background-size: 100%,20%,30%;
+    display: block;
+	position:absolute;
+	top:2.93vw;
+	left:12.86vw;
+}
+.content_logo{
+	height:0.66vw;
+	width:7.3vw;
+	font:400 1.08vw Myriad Pro;
+	display:block;
+	position:absolute;
+	top:4.66vw;
+	left:12.3vw;
+}
+
+.Green1 {
+	position:relative;
+    width: 100%;
+	height:138vw;
+	background-color:#f4f6f8;
+}
+main{
+	position:relative;
+}
+main label.one:nth-of-type(1):after{
+	content:'Home';
+	position:absolute;
+	top:-3.6vw;
+	left:25.6vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+}
+ .Green1 label.five:nth-of-type(1):after{
+	content:'';
+	position:absolute;
+	left: 48.7vw;
+	bottom: 1.4vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+	width:1vw;
+	height:1vw;
+	border-radius:50%;
+	background-color:orange;
+	z-index:1;
+}
+main label.one:nth-of-type(2):after{
+	content:'Product';
+	position:absolute;
+	top:-3.6vw;
+	left:30.6vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+}
+main label.five:nth-of-type(2):after{
+	content:'';
+	position:absolute;
+	left:50.6vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+	width:1vw;
+	height:1vw;
+	border-radius:50%;
+	background-color:orange;
+	bottom: 1.4vw;
+	z-index: 1;
+}
+
+main label.one:nth-of-type(3):after{
+	content:'Hot Deals';
+	position:absolute;
+	top:-3.6vw;
+	left:36.7vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+}
+main label.five:nth-of-type(3):after{
+    content: '';
+    position: absolute;
+    left: 52.6vw;
+    font: 400 1.1vw arial;
+    cursor: pointer;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: orange;
+    bottom: 1.4vw;
+    z-index: 1;
+}
+main label.one:nth-of-type(4):after{
+	content:'About';
+	position:absolute;
+	top:-3.6vw;
+	left:43.6vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+}
+main label.one:nth-of-type(5):after{
+	content:'Contact';
+	position:absolute;
+	top:-3.6vw;
+	left:49vw;
+	font:400 1.1vw arial;
+	cursor:pointer;
+}
+input[type="radio"]:checked + label:after{
+	color:red;
+}
+input[type="radio"]:checked + label.five:after{
+	background-color:red;
+}
+input[type="radio"]{
+	display:none;
+}
+.Green2{
+	display:none;
+}
+.Green3{
+	display:none;
+}
+.Green3{
+    width: 100%;
+    height: 24.3vw;
+    margin-top: 18.1vw;
+    position: absolute;
+	background-color: #f4f6f8;
+}
+#chetyre2:checked ~ .Green2 {
+	display:block;
+}
+#chetyre2:checked ~ .Green1 {
+	display:none;
+}
+#chetyre:checked~ .Green2{
+	display:none;
+}
+#chetyre10:checked ~ .product_offers {
+	display:none;
+}
+#chetyre10:checked ~ .Green3{
+	display:block;
+}
+
+.Search{
+	position:absolute;
+	top:3.7vw;
+	left:81.9vw;
+}
+.User{
+	position:absolute;
+	top:3.66vw;
+	left:85.4vw;
+}
+.Search img{
+	width:1.2vw;
+	height:1.2vw;
+}
+.User img{
+	width:1.4vw;
+	height:1.4vw;
+}
+.Counter img{
+	position:absolute;
+	top:2.46vw;
+	left:88.86vw;
+	width:1.2vw;
+	height:1.2vw;
+}
+.Counter img:nth-of-type(2){
+    position:absolute;
+	top:3.8vw;
+	left:88.66vw;
+	width:1.6vw;
+	height:1.4vw;
+}
+.headline{
+	position:absolute;
+	top:15vw;
+	left:21.2vw;
+	font:400 3.47vw Myriad Pro;
+	color:#ff5912;
+}
+.subtitle{
+	position:absolute;
+	top:19.6vw;
+	left:19.46vw;
+	font:400 1.3vw Myriad Pro;
+}
+.Description{
+	position:absolute;
+	top:21.4vw;
+	left:19.46vw;
+	font:400 1.3vw Myriad Pro;
+}
+.price{
+	position:absolute;
+	top:26.6vw;
+	left:19.46vw;
+	font:400 1.3vw Myriad Pro;
+}
+.Green1 img:nth-of-type(1){
+	width:1.6vw;
+	height:1.2vw;
+	position:absolute;
+	top:26.46vw;
+	left:27.3vw;
+}
+.Green1 img:nth-of-type(2){
+	width:0.66vw;
+	height:2.4vw;
+	position:absolute;
+	top:20.26vw;
+	left:12.4vw;
+}
+.Green1 img:nth-of-type(3){
+	width:0.66vw;
+	height:5.8vw;
+	position:absolute;
+	top:18.53vw;
+	left:12.4vw;
+}
+.Buy{
+	position:absolute;
+	top:26.6vw;
+	left:29.93vw;
+	font:400 1.3vw Myriad Pro;
+	color:#ff5912;
+}
+.header_featured{
+	width: 100%;
+    height: 51.8vw;
+    position: relative;
+}
+.title_arrivals{
+	position:absolute;
+	top:7vw;
+	left:40.53vw;
+	font:400 2.4vw Myriad Pro;
+}
+.color_orange{
+	color:#ff5912;
+}
+.content_arrivals{
+	position:absolute;
+	top:10.66vw;
+	left:30vw;
+	font:400 1.1vw Myriad Pro;
+}
+.product{
+	background-color: white;
+    width: 18vw;
+    height: 24.3vw;
+    float: left;
+    margin-right: 2vw;
+    position: relative;
+}
+.full_winter{
+	position: relative;
+    background: url(Bg.png)no-repeat;
+    width: 100%;
+    height: 43.3vw;
+    background-size: cover;
+}
+.header_featured .product:nth-of-type(1){
+	margin-left:11.3vw;
+}
+.header_featured div.product img{
+    position: inherit;
+}
+.header_featured div.product:nth-of-type(1) img{
+    width:9.6vw;
+	height:14.4vw;
+	position:absolute;
+	left:4.2vw;
+	top:2vw;
+}
+.header_featured div.product:nth-of-type(2) img{
+    width:10.6vw;
+	height:14.26vw;
+	position:absolute;
+	left:3.7vw;
+	top:2vw;
+}
+.header_featured div.product:nth-of-type(3) img{
+    width:4.6vw;
+	height:5.8vw;
+	position:absolute;
+	left:6.66vw;
+	top:2.3vw;
+}
+.header_featured div.product:nth-of-type(4) img{
+    width:11.3vw;
+	height:14.06vw;
+	position:absolute;
+	left:3.3vw;
+	top:2.2vw;
+}
+.header_featured div.product:nth-of-type(1) .name_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:18.4vw;
+	left:4.2vw;
+}
+.header_featured div.product:nth-of-type(2) .name_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:18.4vw;
+	left:4.2vw;
+}
+.header_featured div.product:nth-of-type(1) .price_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:21.46vw;
+	left:7.86vw;
+	color:#ff5912;
+}
+.header_featured div.product:nth-of-type(2) .price_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:21.46vw;
+	left:7.86vw;
+	color:#ff5912;
+}
+.header_featured div.product:nth-of-type(4) .name_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:18.4vw;
+	left:4.2vw;
+}
+.header_featured div.product:nth-of-type(4) .price_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:21.46vw;
+	left:7.86vw;
+	color:#ff5912;
+}
+.header_featured div.product:nth-of-type(3) .name_product{
+    font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:10.2vw;
+	left:4.6vw;
+	color:#ff5912;
+}
+.header_featured div.product:nth-of-type(3) .size_product{
+    font:400 0.9vw Myriad Pro;
+	position:absolute;
+	top:13.2vw;
+	left:5.7vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(2){
+	width:0.86vw;
+	height:0.86vw;
+	position:absolute;
+	top:16vw;
+	left:6.8vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(3){
+	width:0.86vw;
+	height:0.86vw;
+	position:absolute;
+	top:16vw;
+	left:8vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(4){
+	width:0.86vw;
+	height:0.86vw;
+	position:absolute;
+	top:16vw;
+	left:9.2vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(5){
+	width:0.86vw;
+	height:0.86vw;
+	position:absolute;
+	top:16vw;
+	left:10.4vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(6){
+	width:1.26vw;
+	height:1.13vw;
+	position:absolute;
+	top:21.2vw;
+	left:4.73vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(7){
+	width:1.46vw;
+	height:1.4vw;
+	position:absolute;
+	top:20.9vw;
+	left:7.86vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(8){
+	width:1.26vw;
+	height:1.06vw;
+	position:absolute;
+	top:21.2vw;
+	left:11.5vw;
+}
+.header_featured div.product:nth-of-type(3) hr{
+	width: 11.2vw;
+    height: 0.06vw;
+    position: absolute;
+    top: 19vw;
+    left: 3.7vw;
+    background-color: #f2f4f7;
+    border: none;
+}
+.footer_featured{
+	background-color: white;
+	left: 11.3vw;
+	width:78vw;
+	height:4vw;
+	position:absolute;
+	bottom:0;
+}
+.hot_deal{
+    width: 44.66vw;
+    height: 6.66vw;
+	background-color:white;
+	position:relative;
+}
+.hot_deal img:nth-of-type(1){
+	position:absolute;
+	width:5.33vw;
+	height:5.33vw;
+	left:4.13vw;
+	top:0.73vw;
+	z-index:2;
+}
+.hot_deal img:nth-of-type(2){
+	position:absolute;
+	width:5.33vw;
+	height:5.33vw;
+	left:4.13vw;
+	top:0.73vw;
+}
+.hot_deal img:nth-of-type(3){
+	position:absolute;
+	width:1.8vw;
+	height:1.8vw;
+	left:33.53vw;
+	top:2.66vw;
+}
+.sale{
+	font:400 0.8vw Myriad Pro;
+	position:absolute;
+	left:6.2vw;
+	top:2.26vw;
+	color:white;
+	z-index:3;
+}
+.percent_sale{
+	font:400 1.2vw Myriad Pro;
+	position:absolute;
+	left:5.8vw;
+	top:3.4vw;
+	color:white;
+	z-index:3;
+}
+.title_sale{
+	font:400 1.46vw Myriad Pro;
+	position:absolute;
+	left:14.6vw;
+	top:1.93vw;
+}
+.Sale_Desription{
+	font:400 0.8vw Myriad Pro;
+	position:absolute;
+	left:14.4vw;
+	top:4vw;
+}
+.price_sale{
+	font:400 2.14vw Myriad Pro;
+	color:#ff5912;
+	position:absolute;
+	left:36.73vw;
+	top:2.56vw;
+}
+.price_sale span{
+	font:400 1.46vw Myriad Pro;
+}
+.adv{
+    background-color: white;
+	width:31.3vw;
+	height:6.66vw;
+	position:relative;
+}
+.sale_price_content{
+	background-color: #f4f6f8;
+    left: 11.3vw;
+    width: 78vw;
+    height: 6.66vw;
+    position: relative;
+    top: 7.9vw;
+    display: flex;
+    justify-content: space-between;
+}
+.sale_price_adv{
+    width: 78vw;
+    height: 14.6vw;
+    position: relative;
+}
+.adv_title{
+	font:400 1.06vw Myriad Pro;
+	position:absolute;
+	left:14.7vw;
+	top:2vw;
+}
+.adv_title span{
+	color:#ff5912;
+}
+.adv_size{
+	font:400 0.8vw Myriad Pro;
+	position:absolute;
+	left:12.3vw;
+	top:4vw;
+	color:#34404b;
+	letter-spacing:0.6vw;
+}
+.Best_sales{
+	width:78vw;
+	height:20.66vw;
+	position:relative;
+	left: 11.3vw;
+	top:7.9vw;
+}
+.title_best_sales{
+	font:400 2.3vw Myriad Pro;
+	display:block;
+	margin:0 auto;
+	width:13.3vw;
+	height:2.6vw;
+}
+.Section_Description{
+	display:block;
+	margin-left:21.6vw;
+	font:400 1.1vw Myriad Pro;
+}
+.product_with_sales{
+	width:24.66vw;
+	height:10.66vw;
+	background-color:white;
+	position: absolute;
+    bottom: 0;
+}
+.Best_sales .product_with_sales img{
+	height:5.93vw;
+	width:6vw;
+	position:absolute;
+	top:2.33vw;
+	left:1.86vw;
+}
+.Best_sales .product_with_sales img:nth-of-type(2){
+	height:1.5vw;
+	width:6vw;
+	position:absolute;
+	top:6vw;
+	left:11vw;
+}
+.Best_sales .product_with_sales:nth-of-type(2) img:nth-of-type(2){
+	height:1.46vw;
+	width:1.46vw;
+	position:absolute;
+	top:6vw;
+	left:13.33vw;
+}
+.add_to_cart{
+	height:1.14vw;
+	width:5vw;
+	position:absolute;
+	top:6.2vw;
+	left:16vw;
+    font:400 1.16vw Myriad Pro;
+}
+.price_best_sales{
+	height:1.16vw;
+	width:2.19vw;
+	position:absolute;
+	top:6.4vw;
+	left:20.46vw;
+    font:400 1.16vw Myriad Pro;
+}
+.Best_sales .product_with_sales:nth-of-type(2){
+	width:24.66vw;
+	height:10.66vw;
+	background-color:white;
+	position: absolute;
+    bottom: 0;
+	left:26.66vw;
+}
+.title_product_sales{
+	height:1.26vw;
+	width:11vw;
+	position:absolute;
+	top:3.13vw;
+	left:12.73vw;
+    font:400 1.2vw Myriad Pro;
+}
+.Best_sales .product_with_sales:nth-of-type(3){
+	width:24.66vw;
+	height:10.66vw;
+	background-color:white;
+	position: absolute;
+    bottom: 0;
+	left: 53.32vw;
+}
+.News_letter{
+	width:78vw;
+	height:8.2vw;
+	position:relative;
+	left: 11.3vw;
+	top:7.9vw;
+	background-color:white;
+}
+.title_new_letter{
+	font:400 1.2vw Myriad Pro;
+	position:absolute;
+	top:3.6vw;
+	left:4vw;
+}
+.description_news_letter{
+	font:400 0.93vw Myriad Pro;
+	position:absolute;
+	top:3.6vw;
+	left:13.3vw;
+}
+.News_letter img{
+	width:1.2vw;
+	height:0.73vw;
+	position:absolute;
+	left: 47.6vw;
+	top:3.6vw;
+}
+.mail_news_letter{
+	position:absolute;
+	left: 49.7vw;
+	top:3.6vw;
+	font:400 0.9vw Myriad Pro;
+	color:#7c8791;
+}
+input[type="submit"]{
+	position:absolute;
+	background:url("ButtonBg.png");
+	width:6.66vw;
+	height:3.33vw;
+	top:2.46vw;
+	right:2.8vw;
+	border: none;
+	color:white;
+	font:400 0.9vw Myriad Pro;
+}
+footer{
+	height:16.3vw;
+	width:100%;
+	position:relative;
+	bottom:-16vw;
+	left:0;
+	background-color:white;
+}
+.year_shop{
+	position:absolute;
+	left: 12.46vw;
+	top:9.93vw;
+	font:400 0.9vw Myriad Pro;
+}
+footer .title_logo{
+	height: 1.8vw;
+    width: 7.3vw;
+    background: url(SHPY.png)no-repeat,url(Vector.png)50% 30% no-repeat,url(Ellipse.png)50% 0 no-repeat;
+    background-size: 100%,20%,30%;
+    display: block;
+	position:absolute;
+	top:6.1vw;
+	left:13vw;
+}
+footer .content_logo{
+	height:0.66vw;
+	width:7.3vw;
+	font:400 1.08vw Myriad Pro;
+	display:block;
+	position:absolute;
+	top:7.86vw;
+	left:12.5vw;
+}
+.payment_method{
+	width:11.3vw;
+	height:3.66vw;
+	position:absolute;
+	top:6.5vw;
+	right:12.3vw;
+}
+.payment{
+	width:8.13vw;
+	height:1.1vw;
+	font:400 1.06vw Myriad Pro;
+	margin-bottom:1.3vw;
+	display:block;
+}
+.payment_method img{
+	width:11.3vw;
+	height:1.26vw;
+}
+.Linkes1{
+	position:absolute;
+	top:5.93vw;
+	left:39.1vw;
+}
+footer ul{
+	padding:0;
+	margin:0;
+}
+.Linkes1 li{
+	padding-left:1vw;
+	font:400 0.9vw Myriad Pro;
+	padding-bottom:1vw;
+}
+.Linkes2{
+	position:absolute;
+	top:5.93vw;
+	left:52.46vw;
+}
+.Linkes2 li{
+	padding-left:1vw;
+	font:400 0.9vw Myriad Pro;
+	padding-bottom:1vw;
+}
+.Linkes3{
+	position:absolute;
+	top:5.93vw;
+	left:65.8vw;
+}
+.Linkes3 li{
+	padding-left:1vw;
+	font:400 0.9vw Myriad Pro;
+	padding-bottom:1vw;
+}
+.side{
+	height:83.33vw;
+	width:17.86vw;
+	position:relative;
+	top:8vw;
+	left:13vw;
+	margin-bottom:8vw;
+}
+.Categories{
+	width:17.86vw;
+	height:20.13vw;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:white;
+}
+.Categories ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.Categories li:nth-of-type(1){
+	margin-top:2.73vw;
+	margin-left:3.5vw;
+	font:400 1.2vw Myriad Pro;
+	margin-bottom:2.8vw;
+}
+.Categories li:not(:first-of-type){
+	margin-bottom:2.3vw;
+	margin-left:2.6vw;
+	font:400 1vw Myriad Pro;
+}
+.Categories li:last-of-type{
+	margin-bottom:2.6vw;
+}
+.Price_filtter{
+	position:absolute;
+	top:22.13vw;
+	left:0;
+	width:17.86vw;
+	height:15.46vw;
+	background-color:white;
+}
+.title_price_filtter{
+	position:absolute;
+	top:2.8vw;
+	left:3.8vw;
+	font:400 1.2vw Myriad Pro;
+}
+.Price_filtter input[type="text"]{
+	position:absolute;
+	top:11.26vw;
+	left:5.8vw;
+	width:3vw;
+	height:1.6vw;
+	background-color:#edf0f2;
+	border:none;
+}
+.Price_filtter input[type="text"]:nth-of-type(2){
+	left:12.26vw;
+}
+.from{
+	position:absolute;
+	top:11.66vw;
+	left:2.6vw;
+	font:400 0.9vw Myriad Pro;
+}
+.to{
+	position:absolute;
+	top:11.66vw;
+	left:10.3vw;
+	font:400 0.9vw Myriad Pro;
+}
+.sizes{
+	position:absolute;
+	top:39.59vw;
+	left:0;
+	width:17.86vw;
+	height:20.13vw;
+	background-color:white;
+}
+.title_sizes{
+	position:absolute;
+	top:2.8vw;
+	left:3.13vw;
+	font:400 1.3vw Myriad Pro;
+}
+.Green2 input[type="radio"]{
+	display:none;
+}
+.Green2 label:nth-of-type(1):after{
+	content:"";
+	position:absolute;
+	left: -1.8vw;
+	background-color:#edf0f2;
+	width:0.9vw;
+	height:0.9vw;
+}
+.Green2 label:nth-of-type(2):after{
+	content:"";
+	position:absolute;
+	left: -1.8vw;
+	background-color:#edf0f2;
+	width:0.9vw;
+	height:0.9vw;
+}
+.Green2 label:nth-of-type(3):after{
+	content:"";
+	position:absolute;
+	left: -1.8vw;
+	background-color:#edf0f2;
+	width:0.9vw;
+	height:0.9vw;
+}
+.Green2 label:nth-of-type(4):after{
+	content:"";
+	position:absolute;
+	left: -1.8vw;
+	background-color:#edf0f2;
+	width:0.9vw;
+	height:0.9vw;
+}
+.Green2 input[type="radio"]:checked + label:after{
+	width:0.9vw;
+	height:0.9vw;
+	background: url(CheckBoxActive.png)50% no-repeat,url(CheckBoxActiveBg.png)no-repeat;
+    background-size: 50%,100%;
+}
+.Green2 label:nth-of-type(4){
+	position:absolute;
+	top:16.46vw;
+	left:4.4vw;
+	font:400 1.1vw Myriad Pro;
+}
+.Green2 label:nth-of-type(3){
+	position:absolute;
+	top:13.13vw;
+	left:4.4vw;
+	font:400 1vw Myriad Pro;
+}
+.Green2 label:nth-of-type(2){
+	position:absolute;
+	top:9.8vw;
+	left:4.4vw;
+	font:400 1vw Myriad Pro;
+}
+.Green2 label:nth-of-type(1){
+	position:absolute;
+	top:6.4vw;
+	left:4.4vw;
+	font:400 1vw Myriad Pro;
+}
+.Brands{
+	position:absolute;
+	top:61.72vw;
+	left:0;
+	width:17.86vw;
+	height:20.13vw;
+	background-color:white;
+}
+.product_categories{
+	display:flex;
+	flex-wrap:wrap;
+	width:58vw;
+	height:77.33vw;
+	position:absolute;
+	top:8vw;
+	left:33.06vw;
+}
+.product_categories .product{
+	background-color: white;
+    width: 18vw;
+    height: 24.3vw;
+    margin-right: 2vw;
+	margin-top:0;
+	clear:both;
+	margin-bottom: 2vw;
+}
+.product_categories .product:nth-of-type(3n){
+	margin-right:0;
+}
+.product_categories .product:nth-of-type(6n)~.product{
+	margin-bottom:0;
+}
+.product_categories .product img{
+	width: 9.6vw;
+    height: 14.4vw;
+    position: absolute;
+    left: 4.2vw;
+    top: 2vw;
+}
+.product_categories .product .name_product{
+	font: 400 1.2vw Myriad Pro;
+    position: absolute;
+    top: 18.4vw;
+    left: 4.2vw;
+}
+.product_categories .product .price_product{
+	font: 400 1.2vw Myriad Pro;
+    position: absolute;
+    top: 21.46vw;
+    left: 7.86vw;
+    color: #ff5912;
+}
+.load_more{
+	background-color: white;
+    width: 100%;
+    height: 4vw;
+    margin-top: 2vw;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.load_more img{
+    width: 2.3vw;
+    height: 0.53vw;
+}
+.special_offer{
+	width: 20vw;
+    height: 12vw;
+    position: absolute;
+    border: 1px solid red;
+    top: 30vw;
+    left: 19vw;
+}
+.special_offers{
+    border: 1px solid green;
+}
+.special_offer_content{
+	position: absolute;
+    top: 10vw;
+    left: 2vw;
+	font: 400 1.2vw arial;
+}
+.offers{
+	font: 700 1.2vw arial;
+}
+.full_winter .special_offer img{
+	width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 1vw;
+    left: 6vw;
+}
+.write_to_us{
+	width: 11vw;
+    height: 15vw;
+    border: 1px solid black;
+    position: fixed;
+    top: 25vw;
+    right: -10vw;
+    transform: rotate(-90deg);
+    border-radius: 10px 10px 0 0;
+}
+.close {
+	display:none;
+    width: 1.4vw;
+    height: 1.4vw;
+    border-radius: 50%;
+    background: #b0e2ac url(exit.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.title_write_to_us{
+    width: 11vw;
+    height: 4vw;
+    text-align: center;
+    background-color: rgba(158, 199, 211,0.7);
+    border-radius: 10px 10px 0 0;
+	font:400 1.2vw arial;
+}
+textarea{
+	width: 100%;
+    resize: none;
+    height: 5vw;
+}
+#text{
+	width:100%;
+}
+button[type="submit"]{
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+	font: 400 1.2vw arial;
+}
+.product_offers {
+    width: 100%;
+    height: 24.3vw;
+    margin-top: 18.1vw;
+    position: absolute;
+}
+@media screen and (max-width:1024px){
+	.header_featured{
+	width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+	align-items:center;
+}
+.product_offers {
+    width: 100%;
+    height: 120.3vw;
+    margin-top: 18.1vw;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Green1 .full_winter .special_offer img{
+	width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 1vw;
+    left: 6vw;
+}
+.title_best_sales {
+    font: 400 2.3vw Myriad Pro;
+    display: block;
+    margin: 0 auto;
+    width: 17.3vw;
+    height: 2.6vw;
+    text-align: center;
+}
+.product {
+    background-color: white;
+    width: 38vw;
+    height: 24.3vw;
+    float: left;
+    margin-right: 2vw;
+    margin-top: 5.1vw;
+    position: relative;
+}
+.header_featured .product:nth-of-type(1) {
+    margin-left:0;
+    /* margin-top: 15vw; */
+}
+.footer_featured {
+    background-color: white;
+    left: 11.3vw;
+    width: 78vw;
+    height: 4vw;
+    position: absolute;
+    bottom: -5vw;
+}
+.Green1 {
+    position: relative;
+    width: 100%;
+    height: 220vw;
+    background-color: #f4f6f8;
+}
+.header_featured div.product:nth-of-type(1) .price_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 21.46vw;
+    left: 0;
+    color: #ff5912;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(1) .name_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 18.4vw;
+    left:0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(1) img {
+    width: 12.6vw;
+    height: 14.4vw;
+    position: absolute;
+    left: 12.2vw;
+    top: 2vw;
+}
+.header_featured div.product:nth-of-type(2) img {
+    width: 13.6vw;
+    height: 14.26vw;
+    position: absolute;
+    left: 11.8vw;
+    top: 2vw;
+}
+.header_featured div.product:nth-of-type(2) .name_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 18.4vw;
+    left: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(2) .price_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 21.46vw;
+    left: 0;
+    color: #ff5912;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(3) img {
+    width: 8.6vw;
+    height: 7.8vw;
+    position: absolute;
+    left: 14.66vw;
+    top: 2.3vw;
+}
+.header_featured div.product:nth-of-type(3) .name_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 10.2vw;
+    left: 0;
+    color: #ff5912;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(3) .size_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 13.2vw;
+    left: 0vw;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(2) {
+    width: 1.86vw;
+    height: 1.86vw;
+    position: absolute;
+    top: 16vw;
+    left: 12.8vw;
+}
+.content_arrivals {
+    position: absolute;
+    top: 10.66vw;
+    left: 20vw;
+    font: 400 2.1vw Myriad Pro;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(5) {
+    width: 1.86vw;
+    height: 1.86vw;
+    position: absolute;
+    top: 16vw;
+    left: 23vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(4) {
+    width: 1.86vw;
+    height: 1.86vw;
+    position: absolute;
+    top: 16vw;
+    left: 19.8vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(3) {
+    width: 1.86vw;
+    height: 1.86vw;
+    position: absolute;
+    top: 16vw;
+    left: 16vw;
+}
+.header_featured div.product:nth-of-type(4) img {
+    width: 14.3vw;
+    height: 14.06vw;
+    position: absolute;
+    left: 11.6vw;
+    top: 2.2vw;
+}
+.header_featured div.product:nth-of-type(4) .name_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 18.4vw;
+    left: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(4) .price_product {
+    font: 400 2.2vw Myriad Pro;
+    position: absolute;
+    top: 21.46vw;
+    left: 0;
+    color: #ff5912;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.header_featured div.product:nth-of-type(3) hr {
+    width: 30.2vw;
+    height: 0.2vw;
+    position: absolute;
+    top: 19vw;
+    left: 3.7vw;
+    background-color: #f2f4f7;
+    border: none;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(8) {
+    width: 2.26vw;
+    height: 2.06vw;
+    position: absolute;
+    top: 21.2vw;
+    left: 21.5vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(7) {
+    width: 2.46vw;
+    height: 2.4vw;
+    position: absolute;
+    top: 20.9vw;
+    left: 17.86vw;
+}
+.header_featured div.product:nth-of-type(3) img:nth-of-type(6) {
+    width: 2.26vw;
+    height: 2.13vw;
+    position: absolute;
+    top: 21.2vw;
+    left: 14.73vw;
+}
+.adv_title {
+    font: 400 2.06vw Myriad Pro;
+    position: absolute;
+    left: 14.7vw;
+    top: 2vw;
+}
+.adv_size {
+    font: 400 1.8vw Myriad Pro;
+    position: absolute;
+    left: 12.3vw;
+    top: 4vw;
+    color: #34404b;
+    letter-spacing: 0.6vw;
+}
+.Sale_Desription {
+    font: 400 1.2vw Myriad Pro;
+    position: absolute;
+    left: 10.4vw;
+    top: 4vw;
+}
+.title_sale {
+    font: 400 1.86vw Myriad Pro;
+    position: absolute;
+    left: 13.6vw;
+    top: 1.93vw;
+}
+.hot_deal img:nth-of-type(3) {
+    position: absolute;
+    width: 2.8vw;
+    height: 2.8vw;
+    left: 32.53vw;
+    top: 1.66vw;
+}
+.price_sale {
+    font: 400 3.14vw Myriad Pro;
+    color: #ff5912;
+    position: absolute;
+    left: 36.73vw;
+    top: 1.56vw;
+}
+.Section_Description {
+    display: block;
+    margin-left: 18.6vw;
+    font: 400 1.8vw Myriad Pro;
+}
+.title_product_sales {
+    height: 1.26vw;
+    width: 13vw;
+    position: absolute;
+    top: 3.13vw;
+    left: 10.73vw;
+    font: 400 1.5vw Myriad Pro;
+}
+.News_letter {
+    width: 78vw;
+    height: 8.2vw;
+    position: relative;
+    left: 11.3vw;
+    top: 7.9vw;
+    background-color: white;
+}
+.description_news_letter {
+    font: 400 1.43vw Myriad Pro;
+    position: absolute;
+    top: 3.8vw;
+    left: 16.3vw;
+}
+.title_new_letter {
+    font: 400 1.7vw Myriad Pro;
+    position: absolute;
+    top: 3.6vw;
+    left: 4vw;
+}
+.News_letter img {
+    width: 2.2vw;
+    height: 1.73vw;
+    position: absolute;
+    left: 46.6vw;
+    top: 3.6vw;
+}
+.mail_news_letter {
+    position: absolute;
+    left: 49.7vw;
+    top: 3.6vw;
+    font: 400 1.9vw Myriad Pro;
+    color: #7c8791;
+}
+input[type="submit"] {
+    position: absolute;
+    background: url(ButtonBg.png);
+    width: 7.66vw;
+    height: 4.33vw;
+    top: 2.46vw;
+    right: 2.8vw;
+    border: none;
+    color: white;
+    font: 400 1.6vw Myriad Pro;
+}
+.mail_news_letter {
+    position: absolute;
+    left: 49.7vw;
+    top: 3.6vw;
+    font: 400 1.9vw Myriad Pro;
+    color: #7c8791;
+}
+.News_letter img {
+    width: 2.2vw;
+    height: 1.73vw;
+    position: absolute;
+    left: 46.6vw;
+    top: 3.8vw;
+}
+.Linkes1 {
+    position: absolute;
+    top: 5.93vw;
+    left: 31.1vw;
+}
+.Linkes1 li {
+    padding-left: 1vw;
+    font: 400 1.9vw Myriad Pro;
+    padding-bottom: 1vw;
+}
+.Linkes2 {
+    position: absolute;
+    top: 5.93vw;
+    left: 43.46vw;
+}
+.Linkes2 li {
+    padding-left: 1vw;
+    font: 400 1.9vw Myriad Pro;
+    padding-bottom: 1vw;
+}
+.Linkes3 {
+    position: absolute;
+    top: 5.93vw;
+    left: 63.8vw;
+}
+.Linkes3 li {
+    padding-left: 1vw;
+    font: 400 1.9vw Myriad Pro;
+    padding-bottom: 1vw;
+}
+.payment_method {
+    width: 18.13vw;
+    height: 3.66vw;
+    position: absolute;
+    top: 5.5vw;
+    right: 5.3vw;
+}
+.payment_method img {
+    width: 15.3vw;
+    height: 2.26vw;
+}
+.year_shop {
+    position: absolute;
+    left: 10.46vw;
+    top: 9.93vw;
+    font: 400 1.2vw Myriad Pro;
+}
+footer .content_logo {
+    height: 0.66vw;
+    width: 9.3vw;
+    font: 400 1.38vw Myriad Pro;
+    display: block;
+    position: absolute;
+    top: 7.86vw;
+    left: 12.5vw;
+}
+footer .title_logo {
+    height: 1.9vw;
+    width: 8.3vw;
+    background: url(SHPY.png)no-repeat,url(Vector.png)50% 30% no-repeat,url(Ellipse.png)50% 0 no-repeat;
+    background-size: 100%,20%,30%;
+    display: block;
+    position: absolute;
+    top: 6.1vw;
+    left: 13vw;
+}
+.subtitle {
+    position: absolute;
+    top: 19.6vw;
+    left: 19.46vw;
+    font: 400 2.3vw Myriad Pro;
+}
+.Description {
+    position: absolute;
+    top: 22.4vw;
+    left: 19.46vw;
+    font: 400 2.3vw Myriad Pro;
+}
+.price {
+    position: absolute;
+    top: 26.6vw;
+    left: 19.46vw;
+    font: 400 2.3vw Myriad Pro;
+}
+.Buy {
+    position: absolute;
+    top: 26.6vw;
+    left: 34.93vw;
+    font: 400 2.3vw Myriad Pro;
+    color: #ff5912;
+}
+.full_winter img:nth-of-type(1) {
+    width: 2.6vw;
+    height: 2.2vw;
+    position: absolute;
+    top: 26.46vw;
+    left: 31.3vw;
+}
+main label.one:nth-of-type(2):after {
+    content: 'Product';
+    position: absolute;
+    top: -3.6vw;
+    left: 32.6vw;
+    font: 400 2.1vw arial;
+    cursor: pointer;
+}
+main label.one:nth-of-type(1):after {
+    content: 'Home';
+    position: absolute;
+    top: -3.6vw;
+    left: 25.6vw;
+    font: 400 2.1vw arial;
+    cursor: pointer;
+}
+main label.one:nth-of-type(3):after {
+    content: 'Hot Deals';
+    position: absolute;
+    top: -3.6vw;
+    left: 41.7vw;
+    font: 400 2.1vw arial;
+    cursor: pointer;
+}
+main label.one:nth-of-type(4):after {
+    content: 'About';
+    position: absolute;
+    top: -3.6vw;
+    left: 52.2vw;
+    font: 400 2.1vw arial;
+    cursor: pointer;
+}
+main label.one:nth-of-type(5):after {
+    content: 'Contact';
+    position: absolute;
+    top: -3.6vw;
+    left: 59vw;
+    font: 400 2.1vw arial;
+    cursor: pointer;
+}
+.content_logo {
+    height: 0.66vw;
+    width: 14.3vw;
+    font: 400 1.88vw Myriad Pro;
+    display: block;
+    position: absolute;
+    top: 4.66vw;
+    left: 10.3vw;
+}
+.mail img, .phone img {
+    width: 2.2vw;
+    height: 1.733vw;
+    margin-right: 0.2vw;
+}
+.mail {
+    height: 0.87vw;
+    width: 16.08vw;
+    font: 400 1.46vw arial;
+    margin-left: 3.2vw;
+    margin-top: 1.6vw;
+    position: absolute;
+}
+.phone {
+    height: 0.87vw;
+    width: 17.08vw;
+    font: 400 1.36vw arial;
+    margin-left: 21.26vw;
+    margin-top: 1.6vw;
+    position: absolute;
+}
+.social img:nth-of-type(4) {
+    position: absolute;
+    left: 89.5vw;
+    top: 1.66vw;
+    width: 1.73vw;
+    height: 1.73vw;
+}
+.social img:nth-of-type(3) {
+    position: absolute;
+    left: 87.6vw;
+    top: 1.66vw;
+    width: 1.9vw;
+    height: 1.73vw;
+}
+.social img:nth-of-type(2) {
+    position: absolute;
+    left: 85.6vw;
+    top: 1.66vw;
+    width: 1.9vw;
+    height: 1.73vw;
+}
+.social img:nth-of-type(1) {
+    position: absolute;
+    left: 83.8vw;
+    top: 1.66vw;
+    width: 1.4vw;
+    height: 1.73vw;
+}
+.Search img {
+    width: 2.2vw;
+    height: 2.2vw;
+}
+.User img {
+    width: 2.4vw;
+    height: 2.4vw;
+}
+.Counter img {
+    position: absolute;
+    top: 1.56vw;
+    left: 88.86vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+.Counter img:nth-of-type(2) {
+    position: absolute;
+    top: 3.8vw;
+    left: 88.66vw;
+    width: 2.6vw;
+    height: 2.4vw;
+}
+.Green1 label.five:nth-of-type(1):after {
+    content: '';
+    position: absolute;
+    left: 35.7vw;
+    bottom: -3.5vw;
+    font: 400 1.1vw arial;
+    cursor: pointer;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: orange;
+    z-index: 1;
+}
+main label.five:nth-of-type(2):after {
+    content: '';
+    position: absolute;
+    left: 47.6vw;
+    font: 400 1.1vw arial;
+    cursor: pointer;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: orange;
+    bottom: -3.5vw;
+    z-index: 1;
+}
+main label.five:nth-of-type(3):after {
+    content: '';
+    position: absolute;
+    left: 60.6vw;
+    font: 400 1.1vw arial;
+    cursor: pointer;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: orange;
+    bottom: -3.5vw;
+    z-index: 1;
+}
+.Green3{
+	width: 100%;
+    height: 120.3vw;
+	display:none;
+    margin-top: 18.1vw;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+}
+#chetyre10:checked ~ .Green3{
+	display:flex;
+}
+}
+@media screen and (max-width:500px) {
+	footer ul{
+		list-style:none;
+	}
+}
+@media screen and (max-width:736px){
+	.phone {
+    height: 0.87vw;
+    width: 27.08vw;
+    font: 400 1.6vw arial;
+    margin-left: 21.26vw;
+    margin-top: 1.6vw;
+    position: absolute;
+}
+footer .content_logo {
+    height: 0.66vw;
+    width: 16.3vw;
+    font: 400 1.28vw Myriad Pro;
+    display: block;
+    position: absolute;
+    top: 7.86vw;
+    left: 10.5vw;
+}
+.year_shop {
+    position: absolute;
+    left: 10.46vw;
+    top: 10.93vw;
+    font: 400 1.2vw Myriad Pro;
+}
+.side {
+    height: 133.33vw;
+    width: 100%;
+    position: relative;
+    top: 8vw;
+    left: 0;
+    margin-bottom: 8vw;
+}
+.Categories {
+    width: 17.86vw;
+    height: 26.53vw;
+    position: absolute;
+    top: 0;
+    left: 22%;
+    background-color: white;
+}
+.Categories li:nth-of-type(1) {
+    margin-top: 2.73vw;
+    margin-left: 3.5vw;
+    font: 400 2.2vw Myriad Pro;
+    margin-bottom: 2.8vw;
+}
+.Categories li:not(:first-of-type) {
+    margin-bottom: 2.3vw;
+    margin-left: 2.6vw;
+    font: 400 2vw Myriad Pro;
+}
+.Price_filtter {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 20.86vw;
+    height: 15.46vw;
+    background-color: white;
+}
+.title_price_filtter {
+    position: absolute;
+    top: 2.8vw;
+    left: 3.8vw;
+    font: 400 2.2vw Myriad Pro;
+}
+.from {
+    position: absolute;
+    top: 11.66vw;
+    left: 2.6vw;
+    font: 400 1.9vw Myriad Pro;
+}
+.Price_filtter input[type="text"] {
+    position: absolute;
+    top: 11.26vw;
+    left: 7.8vw;
+    width: 3vw;
+    height: 2.6vw;
+    background-color: #edf0f2;
+    border: none;
+}
+.to {
+    position: absolute;
+    top: 11.66vw;
+    left: 12.3vw;
+    font: 400 1.9vw Myriad Pro;
+}
+.Price_filtter input[type="text"]:nth-of-type(2) {
+    left: 15.26vw;
+}
+.Price_filtter input[type="text"] {
+    position: absolute;
+    top: 11.26vw;
+    left: 7.8vw;
+    width: 3vw;
+    height: 2.6vw;
+    background-color: #edf0f2;
+    border: none;
+}
+.sizes {
+    position: absolute;
+    top: 30vw;
+    left: 22%;
+    width: 17.86vw;
+    height: 20.13vw;
+    background-color: white;
+}
+.Brands {
+    position: absolute;
+    top: 30vw;
+    left: 62%;
+    width: 17.86vw;
+    height: 20.13vw;
+    background-color: white;
+}
+.title_sizes {
+    position: absolute;
+    top: 2.8vw;
+    left: 3.13vw;
+    font: 400 2.3vw Myriad Pro;
+}
+.Green2 label:nth-of-type(1) {
+    position: absolute;
+    top: 6.4vw;
+    left: 4.4vw;
+    font: 400 2vw Myriad Pro;
+}
+.Green2 label:nth-of-type(2) {
+    position: absolute;
+    top: 9.8vw;
+    left: 4.4vw;
+    font: 400 2vw Myriad Pro;
+}
+.Green2 label:nth-of-type(3) {
+    position: absolute;
+    top: 13.13vw;
+    left: 4.4vw;
+    font: 400 2vw Myriad Pro;
+}
+.Green2 label:nth-of-type(4) {
+    position: absolute;
+    top: 16.46vw;
+    left: 4.4vw;
+    font: 400 2vw Myriad Pro;
+}
+.product_categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 58vw;
+    height: 77.33vw;
+    position: absolute;
+    top: 63vw;
+    left: 22vw;
+}
+.write_to_us {
+    width: 13vw;
+    height: 18vw;
+    border: 1px solid black;
+    position: fixed;
+    top: 25vw;
+    right: -11vw;
+    transform: rotate(-90deg);
+    border-radius: 10px 10px 0 0;
+}
+   .title_write_to_us {
+    width: 13vw;
+    height: 4vw;
+    text-align: center;
+    background-color: rgba(158, 199, 211,0.7);
+    border-radius: 10px 10px 0 0;
+    font: 400 1.6vw arial;
+    padding-top: 1vw;
+
+}
+#text {
+    width: 100%;
+}
+button[type="submit"] {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+	left:0;
+    font: 400 1.2vw arial;
+}
+::-webkit-input-placeholder{
+	font:400 1.7vw arial;
+}
+}
