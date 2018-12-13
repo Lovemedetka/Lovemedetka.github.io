@@ -968,9 +968,8 @@ form input[type="submit"]:hover{
 }
 footer{
 	position:relative;
-	top:503.81vw;
+	top:203.81vw;
 	height:76.38vw;
-	width:100%;
 }
 .typography{
 	position:relative;
@@ -1079,6 +1078,31 @@ footer img{
     position: absolute;
     top: 17.36vw;
     left: 45.77vw;
+}
+.portfolio ul li img{
+	width:20.55vw;
+	height:18.05vw;
+}
+.portfolio ul li{
+	margin-right:5vw;
+}
+.portfolio ul{
+	list-style:none;
+	display:flex;
+	padding:0;
+	margin:0;
+}
+.title_portfolio{
+	margin-bottom:3.4vw;
+	font:400 1.66vw Arial;
+	color:#2e2771;
+	display:block;
+}
+.portfolio{
+	position:relative;
+	top:185.69vw;
+	left:16.875vw;
+	width: 64.23vw;
 }
 @media screen and (max-width : 800px){
 	.adres{
